@@ -17,6 +17,7 @@ class FindingDuplicatesInArray{
 				if (array[i]==array[j]){
 					System.out.println("The Duplicate Element is found: "+array[j]);
 					found=true;
+					break;
 		}
 		if (found==false)
 			System.out.println("Duplicate Element is NOT found");
