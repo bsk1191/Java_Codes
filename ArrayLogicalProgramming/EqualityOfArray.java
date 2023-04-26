@@ -29,9 +29,9 @@ class EqualityOfArray{
 			status=false;
 
 		if (status==true)										//If the boolean value is still true then the arrays are equal
-			System.out.println("Array are equal");
+			System.out.println("Arrays are equal");
 		else
-			System.out.println("Array are NOT equal");
+			System.out.println("Arrays are NOT equal");
 		
 	}
 }
