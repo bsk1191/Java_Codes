@@ -10,10 +10,10 @@ class FindingDuplicatesInArray{
 		for (int i=0;i<array.length ;i++ )
 			array[i]=scn.nextInt();
 
-		boolean found=false;														         		// Assume that there is no duplicate element
+		boolean found=false;										// Assume that there is no duplicate element
 
-		for (int i=0;i<array.length ;i++ )													// Take first element from the array.
-			for (int j=i+1;j<array.length ;j++ )											// Compare the first element with remaining values
+		for (int i=0;i<array.length ;i++ )								// Take first element from the array.
+			for (int j=i+1;j<array.length ;j++ )							// Compare the first element with remaining values
 				if (array[i]==array[j]){
 					System.out.println("The Duplicate Element is found: "+array[j]);
 					found=true;
