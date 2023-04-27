@@ -11,9 +11,9 @@ class EvenOrOddOfAnArray {
 			array[i]=scn.nextInt();
 		}
 		System.out.print("Even elements are: ");
-		for (int value:array)									    //this loop retrives the first element from array variable
+		for (int value:array)								//This loop retrives the first element from array variable.
 			if (value%2==0)
-				System.out.print(value+" ");					//and stores in value variable next retrieves until the size-1
+				System.out.print(value+" ");					//And stores in value variable next retrieves until the size-1.
 		System.out.println();
 		System.out.print("Odd elements are: ");
 		for (int value:array)
