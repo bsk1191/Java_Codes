@@ -20,7 +20,7 @@ class EqualityOfArray{
 
 		boolean status=true;							//Take a boolean variable and assign default value true.
 
-		if (array1.length==array2.length){					//first check the size of both the arrays if size of both arrays are equal.
+		if (array1.length==array2.length){					// First check the size of both the arrays if size of both arrays are equal.
 			for (int i=0;i<array1.length ;i++ ){				//then the control enters into the loop else control enters into else block.
 				if (array1[i]!=array2[i])				// If the size if matched then retrive the elements of one array and compare with the other array elements.
 					status=false;					// If the elements are not equal change the default value to false.
