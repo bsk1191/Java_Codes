@@ -5,7 +5,7 @@ public class Main
     int base = 5, x = 3;
     System.out.println ("Required Power is " + power (base, x));
   }
-  //Recursive Function
+  
   static int power (int base, int x)
   {
     if (x == 0)  
