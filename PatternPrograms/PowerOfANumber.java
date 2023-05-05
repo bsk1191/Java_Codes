@@ -8,7 +8,7 @@ public class Main
   //Recursive Function
   static int power (int base, int x)
   {
-    if (x == 0)     //Base Condition
+    if (x == 0)  
       return 1;
     return (base * power (base, x - 1));
   }
