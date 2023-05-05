@@ -1,5 +1,4 @@
-public class Main
-{
+public class Main{
 public static void main(String[] args) {
 int n=7;int count=0;int sum=2;int c=1;
 for(int i=1;i<=n;i++){
