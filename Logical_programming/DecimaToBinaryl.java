@@ -1,6 +1,6 @@
 import java.util.*;
-class BinaryToDecimal{
-	static String binaryToDecimal(int n){
+class DecimalToBinary{
+	static String decimalToBinary(int n){
 		String res="";
 		while(n>=1){
 			int rem=n%2;
